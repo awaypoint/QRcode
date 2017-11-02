@@ -31,13 +31,18 @@
     height: 100%;
 }
 
+.QRCode-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .QRCode-content-view {
     display: flex;
     flex-wrap: wrap;
     width: 280rpx;
     height: 300rpx;
-    margin-top:10rpx;
-    margin-left:10rpx;
+    margin-top: 10rpx;
+    margin-left: 10rpx;
     left: 6rpx;
     top: 1rpx;
     border-radius: 5rpx;
@@ -50,34 +55,36 @@
     background-color: #ccc;
     margin: 25rpx;
 }
+
 /*---start of common wxss---*/
-.textC, .wrapperC{
-	top: 0;
-	left: 0;
-	word-break: break-all;
-	text-align: center;
-	display:flex; 
-	box-sizing:border-box;
-	transform-origin: 0% 0%;
-	-webkit-transform-origin: 0% 0%;
+
+.textC, .wrapperC {
+    top: 0;
+    left: 0;
+    word-break: break-all;
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
     -webkit-font-smoothing: antialiased;
 }
-.text_38{
-	width: 404rpx;
-	margin-left: 18rpx;
-	color: rgba(0, 0, 0, 1);
-	line-height: 150%;
+
+.text_38 {
+    width: 404rpx;
+    margin-left: 18rpx;
+    color: rgba(0, 0, 0, 1);
+    line-height: 150%;
 }
-.QRcode-canvas-view{
-  text-align: center;
-  margin-left: 15rpx;
+
+.QRcode-canvas-view {
+    text-align: center;
+    margin-left: 15rpx;
 }
+
 canvas {
-  width:150px;
-  height:150px;
-  display:flex;
-  position:relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    position: relative;
 }
-
-
-
