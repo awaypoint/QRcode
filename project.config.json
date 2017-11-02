@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
 	"appid": "wx16e7c7ca649cd2dd",
-	"projectname": "sl",
+	"projectname": "qrcode",
 	"condition": {
 		"weapp": {
 			"current": -1,

@@ -7,15 +7,11 @@
     <view class="right-view">
         <scroll-view scroll-y="true" class="scroll-view" style="height:{{scrollHeight}}px">
             <view class="QRCode-list">
-                <view class="wrapperC QRCode-content-view" wx:for="{{qrArr}}" wx:key="id">
+                <view class="wrapperC QRCode-content-view" wx:for="{{qrArr}}" wx:key="id" bindtap="linkTo" data-index="{{index}}">
                     <view class="textC hL text_38">
-                        <text class="text-content">棋牌1</text>
+                        <text class="text-content">{{item.title}}</text>
                     </view>
                     <canvas canvas-id="qrcode-{{index}}" class="QRcode-canvas-view" />
-                    <!-- <navigator url="../detail/detail?src={{item.encodeSrc}}"  wx:for="{{qrArr}}" wx:key="id">
-                  <image src="{{item.src}}" class="QRCode" mode='aspectFill'>{{item}}</image> 
-                
-            </navigator> -->
                 </view>
             </view>
         </scroll-view>
