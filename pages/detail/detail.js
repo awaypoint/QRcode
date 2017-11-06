@@ -1,5 +1,3 @@
-var wxbarcode = require('../../utils/index.js');
-
 // pages/detail/detail.js
 Page({
 
@@ -7,19 +5,22 @@ Page({
      * 页面的初始数据
      */
     data: {
-      title:''
+      title:'',
+      img: '',
+      des: ''
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-      var app = getApp()
+      let app = getApp()
       let selectItem = app.globalData.selectQRcodeArr[options.id]
       this.setData({
-          title: selectItem.title
+          title: selectItem.title,
+          img:selectItem.img,
+          des: selectItem.describe
       })
-      wxbarcode.qrcode('qrcode-detail', selectItem.src, 500, 500);
     },
 
 })

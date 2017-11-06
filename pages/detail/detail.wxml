@@ -1,4 +1,5 @@
 <view class="main">
-    <canvas canvas-id="qrcode-detail" class="QRCode" src="" mode='aspectFill'></canvas>
-    <view class="des">简介：{{title}}</view>
+    <!-- <canvas canvas-id="qrcode-detail" class="QRCode" src="" mode='aspectFill'></canvas> -->
+    <image src="{{img}}"></image>
+    <view class="des">{{title}}:{{des}}</view>
 </view>
