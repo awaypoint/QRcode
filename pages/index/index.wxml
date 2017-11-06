@@ -11,7 +11,7 @@
                     <view class="textC hL text_38">
                         <text class="text-content">{{item.title}}</text>
                     </view>
-                    <image src="{{item.img}}"></image>
+                    <image src="{{item.img}}" class="img"></image>
                 </view>
             </view>
         </scroll-view>

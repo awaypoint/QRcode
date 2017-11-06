@@ -56,6 +56,11 @@
     margin: 25rpx;
 }
 
+.img{
+    width: 200rpx;
+    height: 200rpx;
+    margin: 0 auto;
+}
 /*---start of common wxss---*/
 
 .textC, .wrapperC {
