@@ -1,3 +1,4 @@
+<button bindtap='preview'>预览</button>
 <view class="main">
     <!-- 左侧栏 -->
     <view class="side-bar-view">
